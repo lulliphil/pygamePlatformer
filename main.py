@@ -30,7 +30,7 @@ class Player():
         self.images_right = []
         self.images_left = []
         self.index = 0
-        self.counter = 0
+        self.counter = 0 
         for num in range(1, 7):
             img_right = pygame.image.load(f'guy{num}.png')
             img_right = pygame. transform.scale(img_right, (30, 70))
